@@ -65,11 +65,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 |______\__,_|_|  |_|___/ |_____/ \___|_| \__,_|\___\___|_|  
 
 """
-clear = lambda: system("cls")
+clear = lambda: system("clear")
 clear()
 print(print_header)
 
-def nmap_hello():
+def api_hello():
         print("""
 
   ------------------------------      
@@ -79,7 +79,7 @@ def nmap_hello():
   ------------------------------
     """)
 
-nmap_hello()
+api_hello()
 
 class Github:
   def __init__(self):
