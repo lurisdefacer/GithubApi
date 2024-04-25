@@ -113,7 +113,7 @@ github =  Github()
 
 
 while True:
-  secim = input('1- Find User\n2- Get Repositories\n3 - Create Repository\n4- Exit\nSeçim:');
+  secim = input('[1]- Find User\n[2]- Get Repositories\n[3] - Create Repository\n[4]- Exit\nSeçim:');
 
   if secim == '4':
     break
